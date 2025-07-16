@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VaultOfCodes – Intern Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .accordion {
+      max-width: 800px;
+      margin: auto;
+      text-align: left;
+    }
+
+    .accordion-item {
+      border-bottom: 1px solid #333;
+      padding: 1rem 0;
+    }
+
+    .accordion-question {
+      font-weight: bold;
+      cursor: pointer;
+      position: relative;
+      padding-right: 20px;
+    }
+
+    .accordion-question::after {
+      content: '+';
+      position: absolute;
+      right: 0;
+      font-size: 1.2rem;
+    }
+
+    .accordion-question.active::after {
+      content: '-';
+    }
+
+    .accordion-answer {
+      display: none;
+      margin-top: 0.5rem;
+      color: #bbb;
+    }
+
+    .accordion-answer.open {
+      display: block;
+    }
+
+    .footer-contacts {
+      margin-top: 2rem;
+    }
+
+    .footer-contacts a {
+      color: #ddd;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .footer-contacts a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔹 Navbar -->
+  <nav class="nav container">
+    <a href="#" class="logo">
+      <img src="logo.png" alt="VaultOfCodes Logo" style="height: 40px; vertical-align: middle;">
+    </a>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#scholars">Internships</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a class="btn" href="#">Login</a>
+  </nav>
+
+  <!-- 🔹 Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Welcome to VaultOfCodes Intern </h1>
+    
+      <p>Explore amazing projects made by our talented interns</p>
+      <a href="#scholars" class="btn btn-primary">JOIN US</a>
+    </div>
+  </section>
+
+  <!-- 🔹 Scholars Section -->
+  <section id="scholars" class="container scholars">
+    <h2>OUR SCHOLARS</h2>
+    <p>AMAZING PROJECTS BY OUR STUDENTS</p>
+
+    <div class="video-grid">
+      <!-- Coca Cola -->
+      <div class="video-card">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/fxwAF9PSOoM" title="Coca Cola Landing Page" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <h3>Coca Cola Landing Page</h3>
+        <p>By Pragya Gaur, Web Dev Trainee & Intern</p>
+      </div>
+
+      <!-- Alien Shooter -->
+      <div class="video-card">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/clZB_W3Yk2g" title="Alien Shooter Game" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <h3>Alien Shooter Game</h3>
+        <p>By Sharan Nallathur, Python Programming Intern, VaultOfCodes</p>
+      </div>
+
+      <!-- GTA 5 Maze -->
+      <div class="video-card">
+        <a href="https://youtu.be/piOtIdejzd0" target="_blank">
+          <img src="https://img.youtube.com/vi/piOtIdejzd0/hqdefault.jpg" alt="GTA 5 Maze Bank"
+               style="width: 100%; height: 350px; object-fit: cover; border-radius: 8px;">
+        </a>
+        <h3>GTA 5 Maze Bank</h3>
+        <p>By Kshitij Sharma, Java Programming Intern, VaultOfCodes</p>
+      </div>
+    </div>
+  </section>
+<!-- ✅ Quality Learning Experience Section -->
+<section id="quality" class="container" style="text-align: center; padding: 3rem 0;">
+  <h2>Quality Learning Experience</h2>
+  <p>Why choose VaultOfCodes? Because we offer project-based internships, real-world skills, and personal mentorship designed to make you industry-ready.</p>
+</section>
+
+<!-- ✅ Best Offering Section -->
+<section id="offers" class="container" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; text-align: center; padding: 3rem 0;">
+  <!-- Internship and Training -->
+  <div style="flex: 1 1 300px; background: linear-gradient(135deg, #5f0f40, #9a031e); color: white; border-radius: 10px; padding: 2rem;">
+    <h3>Internship & Training Programs</h3>
+    <p>Get hands-on experience in Web Development, Python, Java, and more through our guided training with certification.</p>
+  </div>
+
+  <!-- Study Material -->
+  <div style="flex: 1 1 300px; background: linear-gradient(135deg, #023047, #219ebc); color: white; border-radius: 10px; padding: 2rem;">
+    <h3>Study Material</h3>
+    <p>Access curated notes, PDFs, and coding resources tailored to your course and training track.</p>
+  </div>
+
+  <!-- Test Series -->
+  <div style="flex: 1 1 300px; background: linear-gradient(135deg, #2b9348, #55a630); color: white; border-radius: 10px; padding: 2rem;">
+    <h3>Test Series</h3>
+    <p>Practice your skills with our online tests and prepare confidently for job and internship interviews.</p>
+  </div>
+
+  <!-- Free Content -->
+  <div style="flex: 1 1 300px; background: linear-gradient(135deg, #6a4c93, #8e44ad); color: white; border-radius: 10px; padding: 2rem;">
+    <h3>Free Content</h3>
+    <p>Explore free courses, tutorials, and community-curated projects to enhance your learning anytime.</p>
+  </div>
+</section>
+  <!-- 🔹 About Us -->
+  <section id="about" class="container" style="padding: 3rem 0; text-align: center;">
+    <h2>About Us</h2>
+    <p>VaultOfCodes builds job-ready talent with real-world training and project-based internships in Web Dev, Java, Python, and more!</p>
+  </section>
+
+  <!-- 🔹 FAQ Section -->
+  <section id="faq" class="container" style="padding: 3rem 0; text-align: center;">
+    <h2>Frequently Asked Questions</h2>
+    <div class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-question">What is VaultOfCodes?</div>
+        <div class="accordion-answer">VaultOfCodes is an internship & training platform offering hands-on coding experience.</div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-question">Are the internships paid?</div>
+        <div class="accordion-answer">Most internships are unpaid but include certification and project experience.</div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-question">Do I need prior coding knowledge?</div>
+        <div class="accordion-answer">No, our beginner-friendly tracks will help you learn from scratch.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 Newsletter & Footer -->
+  <footer class="footer">
+    <h3>Subscribe to our Newsletter</h3>
+    <form id="subscribeForm">
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <button class="btn btn-primary" type="submit">Subscribe</button>
+    </form>
+
+    <div class="footer-contacts">
+      <p style="margin-top: 2rem;">Contact us: 
+        <a href="mailto:vaultofcodes@gmail.com">vaultofcodes@gmail.com</a> | 
+        <a href="https://twitter.com/vaultofcodes" target="_blank">Twitter</a> | 
+        <a href="https://facebook.com/vaultofcodes" target="_blank">Facebook</a>
+      </p>
+    </div>
+
+    <p style="margin-top: 1rem;">&copy; 2025 VaultOfCodes | All rights reserved.</p>
+  </footer>
+
+  <!-- 🔹 FAQ Accordion Script -->
+  <script>
+    const questions = document.querySelectorAll('.accordion-question');
+
+    questions.forEach(q => {
+      q.addEventListener('click', () => {
+        q.classList.toggle('active');
+        const answer = q.nextElementSibling;
+        answer.classList.toggle('open');
+      });
+    });
+  </script>
+
+</body>
+</html>
